@@ -8,8 +8,9 @@ inss_table = {
 
 raw_salary = 9000
 
+# unfinished work
 for _, inss in inss_table.items():
   if raw_salary > inss['sal_range'][0] and raw_salary < inss['sal_range'][1]:
     inss_discount = inss['value']
-    if not inss['fixed']:
+    # if not inss['fixed']:
       
